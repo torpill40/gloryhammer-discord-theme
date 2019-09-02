@@ -1,0 +1,476 @@
+//META{"name":"Gloryhammer","description":"Gloryhammer's Theme - Based on the Neutron X Theme","author":"torpill40","version":"1.0"}*//
+@import url("https://codedotspectra.github.io/themes/neutron/importCSS/xcore.css");
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+:root {
+	--bgImage: url('https://github.com/torpill40/gloryhammer-discord-theme/blob/master/theme/images/background.jpg');
+	--HomeButtonImg: url('https://github.com/torpill40/gloryhammer-discord-theme/blob/master/theme/images/home.jpg');
+	--wordMarkImage: url('https://github.com/torpill40/gloryhammer-discord-theme/blob/master/theme/images/wordmark.png');
+	--brightness: 0.80;
+	--customFont: 'Roboto';
+	--PrimaryColorRGBA01: rgba(255, 0, 0, 0.15);
+	--PrimaryColorRGBA02: rgba(0, 240, 240, 0.15);
+	--PrimaryColor01: #ff0000;
+	--PrimaryColorRGBA: var(--PrimaryColorRGBA01);
+	--PrimaryColor02: #b70000;
+	--links: #00adf7;
+	--ChatTextColor: #ffffff;
+	--RoleTitleColor: #ff0000;
+	--UserPlayingTextColor: #ffffff;
+	--ChannelsDefaultTextColor: #00f0f0;
+	--ChannelsSelectedTextColor: #00f0f0;
+	--ChannelsDarkTextColor: #808080;
+	--NTBackgroundColor01: #800000;
+	--NTBackgroundColor02: #600000;
+	--NTBackgroundColor03: #400000;
+	--NTBackgroundColor04: #200000;
+	--columns: 1;
+	--guildsize: 60;
+	--online: #00f0f0;
+	--online-mobile: #00f0f0;
+	--idle: #c70000;
+	--dnd: #800000;
+	--offline: #2d2e30;
+	--invisible: #2d2e30;
+	--streaming: #00adf7;
+}
+
+.wordmark-2iDDfm svg {
+	background-image: var(--wordMarkImage);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 40px;
+	height: 16px;
+	padding-left: 15px;
+	padding-right :15px;
+	margin-left: 0;
+	display: block;
+}
+
+.winButtonClose-1HsbF- {
+	background-color: #00f0f0 !important;
+}
+
+.wrapper-1Rf91z {
+	background-color: var(--PrimaryColorRGBA02) !important;
+}
+
+.membersGroup-v9BXpm {
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 0px;
+	padding-bottom: 13px;
+	padding-left: 0;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	height: 20px;
+	color: var(--RoleTitleColor) !important;
+	width: 95%;
+	border: 1px solid;
+	border-radius: 5px;
+	text-align: center;
+	border-image: none;
+	background-color: var(--PrimaryColorRGBA02);
+}
+
+.username-1r0gCl {
+	color: var(--ChannelsDefaultTextColor);
+}
+
+.name-2WpE7M {
+	color: var(--ChannelsDefaultTextColor) !important;
+}
+
+.activity-525YDR {
+	color: rgba(185,187,190,.6);
+}
+
+.members-1998pB {
+	width: 280px;
+	max-width: 280px;
+}
+
+.memberInner-2CPc3V {
+	width: 210px;
+}
+
+.isMentionedCozy-3isp7y {
+	background-color: var(--PrimaryColorRGBA02) !important;
+	padding: 10px;
+}
+
+.isMentionedCozy-3isp7y::after {
+	background-color: var(--PrimaryColorRGBA02) !important;
+	border-left-color: var(--PrimaryColor01) !important;
+}
+
+div[class="containerCozy-B4noqO container-1e22Ot da-containerCozy da-container"] a[class="anchor-3Z-8Bb da-anchor anchorUnderlineOnHover-2ESHQB da-anchorUnderlineOnHover imageWrapper-2p5ogY da-imageWrapper imageZoom-1n-ADA da-imageZoom clickable-3Ya1ho da-clickable embedWrapper-3AbfJJ da-embedWrapper"] img {
+	position: relative;
+	top: 5px;
+	border-left: 4px solid var(--PrimaryColor01);
+	margin-top: 0px;
+	border-radius: 5px 3px 3px 5px;
+}
+
+.blockquoteContainer-U5TVEi {
+	background-color: var(--PrimaryColorRGBA02);
+	border-radius: 3px 3px 3px 3px;
+}
+
+.blockquoteDivider-2hH8H6 {
+	margin: 0px !important;
+	background-color: var(--PrimaryColor01) !important;
+	border-radius: 5px 0px 0px 5px !important;
+}
+
+.pointerEvents-2zdfdO[mask="url(#svg-mask-status-online)"] {
+	fill: var(--online);
+}
+
+.pointerEvents-2zdfdO[mask="url(#svg-mask-status-online-mobile)"] {
+	fill: var(--online-mobile);
+}
+
+.pointerEvents-2zdfdO[mask="url(#svg-mask-status-idle)"] {
+	fill: var(--idle);
+}
+
+.pointerEvents-2zdfdO[mask="url(#svg-mask-status-dnd)"] {
+	fill: var(--dnd);
+}
+
+.pointerEvents-2zdfdO[mask="url(#svg-mask-status-offline)"] {
+	fill: var(--offline);
+}
+
+.pointerEvents-2zdfdO[mask="url(#svg-mask-status-invisible)"] {
+	fill: var(--invisible);
+}
+
+.pointerEvents-2zdfdO[mask="url(#svg-mask-status-streaming)"] {
+	fill: var(--streaming);
+}
+
+rect[fill="rgba(67, 181, 129, 1)"] {
+	fill: var(--online);
+}
+
+rect[fill="rgba(250, 166, 26, 1)"] {
+	fill: var(--idle);
+}
+
+rect[fill="rgba(240, 71, 71, 1)"] {
+	fill: var(--dnd);
+}
+
+rect[fill="rgba(116, 127, 141, 1)"] {
+	fill: var(--invisible);
+}
+
+rect[fill="rgba(89, 54, 149, 1)"] {
+	fill: var(--streaming);
+}
+
+.hljs::before {
+	border-radius: 5px 5px 5px 5px;
+	background-color: var(--PrimaryColor02);
+	width: 80%;
+	top: -14px;
+	left: -17px;
+}
+
+.hljs[class~="js" i]::before,
+.hljs[class~="javascript" i]::before {
+	content: "</> Javascript";
+}
+
+.hljs[class~="css" i]::before {
+	content: "</> Cascading Style Sheet";
+}
+
+.hljs[class~="bash" i]::before {
+	content: "</> Bash";
+}
+
+.hljs[class~="markdown" i]::before,
+.hljs[class~="md" i]::before {
+	content: "</> Markdown";
+}
+
+.hljs[class~="html" i]::before {
+	content: "</> HTML";
+}
+
+.hljs[class~="xl" i]::before {
+	content: "</> eXtensible Language";
+}
+
+.hljs[class~="coffee" i]::before {
+	content: "</> Coffee (Javascript)";
+}
+
+.hljs[class~="ruby" i]::before {
+	content: "</> Ruby";
+}
+
+.hljs[class~="sql" i]::before {
+	content: "</> SQL";
+}
+
+.hljs[class~="java" i]::before {
+	content: "</> Java";
+}
+
+.hljs[class~="py" i]::before,
+.hljs[class~="python" i]::before {
+	content: "</> Python";
+}
+
+.hljs[class~="vb" i]::before,
+.hljs[class~="visualbasic" i]::before {
+	content: "</> Visual Basic";
+}
+
+.hljs[class~="lua" i]::before {
+	content: "</> Lua";
+}
+
+.hljs[class~="php" i]::before {
+	content: "</> Php";
+}
+
+.hljs[class~="swift" i]::before {
+	content: "</> Swift";
+}
+
+.hljs[class~="makefile" i]::before {
+	content: "</> Makefile";
+}
+
+.hljs[class~="go" i]::before {
+	content: "</> Go";
+}
+
+.hljs[class~=" ini" i]::before {
+	content: "</>  ini";
+}
+
+.hljs[class~="rust" i]::before {
+	content: "</> Rust";
+}
+
+.hljs[class~="prolog" i]::before {
+	content: "</> Prolog";
+}
+
+.hljs[class~="ts" i]::before,
+.hljs[class~="typescript" i]::before {
+	content: "</> TypeScript";
+}
+
+.hljs[class~="http" i]::before {
+	content: "</> HTTP";
+}
+
+.hljs[class~="json" i]::before {
+	content: "</> Json";
+}
+
+.hljs[class~="xml" i]::before {
+	content: "</> XML";
+}
+
+.hljs[class~="less" i]::before {
+	content: "</> Less";
+}
+
+.hljs[class~="sass" i]::before,
+.hljs[class~="scss" i]::before {
+	content: "</> SCSS";
+}
+
+.hljs[class~="js" i],
+.hljs[class~="javascript" i] {
+	--codeblockcolor: #165eab;
+}
+
+.hljs[class~="css" i] {
+	--codeblockcolor: #1973d3;
+}
+
+.hljs[class~="bash" i] {
+	--codeblockcolor: #ab1663;
+}
+
+.hljs[class~="markdown" i],
+.hljs[class~="md" i] {
+	--codeblockcolor: #ab2e16;
+}
+
+.hljs[class~="html" i] {
+	--codeblockcolor: #16ab6f;
+}
+
+.hljs[class~="xl" i] {
+	--codeblockcolor: #16ab6f;
+}
+
+.hljs[class~="coffee" i] {
+	--codeblockcolor: #3a1b1b;
+}
+
+.hljs[class~="ruby" i] {
+	--codeblockcolor: #e73e3e;
+}
+
+.hljs[class~="sql" i] {
+	--codeblockcolor: #4474ca;
+}
+
+.hljs[class~="java" i] {
+	--codeblockcolor: #eb2d2f;
+}
+
+.hljs[class~="py" i],
+.hljs[class~="python" i] {
+	--codeblockcolor: #eb2d2f;
+}
+
+.hljs[class~="vb" i],
+.hljs[class~="visualbasic" i] {
+	--codeblockcolor: #839700;
+}
+
+.hljs[class~="lua" i] {
+	--codeblockcolor: #2ecc71;
+}
+
+.hljs[class~="php" i] {
+	--codeblockcolor: #6e81b6;
+}
+
+.hljs[class~="swift" i] {
+	--codeblockcolor: #fd7837;
+}
+
+.hljs[class~="makefile" i] {
+	--codeblockcolor: #8a2b0f;
+}
+
+.hljs[class~="go" i] {
+	--codeblockcolor: #75cede;
+}
+
+.hljs[class~=" ini" i] {
+	--codeblockcolor: #5a75c0;
+}
+
+.hljs[class~="rust" i] {
+	--codeblockcolor: #000;
+}
+
+.hljs[class~="prolog" i] {
+	--codeblockcolor: #ef4d25;
+}
+
+.hljs[class~="ts" i],
+.hljs[class~="typescript" i] {
+	--codeblockcolor: #03324c;
+}
+
+.hljs[class~="http" i] {
+	--codeblockcolor: #618f10;
+}
+
+.hljs[class~="json" i] {
+	--codeblockcolor: #108f66;
+}
+
+.hljs[class~="xml" i] {
+	--codeblockcolor: #8444af;
+}
+
+.hljs[class~="less" i] {
+	--codeblockcolor: #1d365d;
+}
+
+.hljs[class~="sass" i],
+.hljs[class~="scss" i] {
+	--codeblockcolor: #bf4080;
+}
+
+
+/*material-design-syntax*/
+
+.hljs-selector-tag {
+	color: #B2CCD6 !important;
+}
+
+.hljs-selector-class {
+	color: #FFCB6B !important;
+}
+
+.hljs-selector-id,
+.hljs-meta,
+.hljs-keyword,
+.hljs-attr {
+	color: #C792EA !important;
+}
+
+.hljs-selector-attr {
+	color: #89DDF3 !important;
+}
+
+.hljs-attribute,
+.hljs-selector-pseudo,
+.hljs-literal,
+.hljs-regexp,
+.hljs-doctag,
+.hljs-meta-string {
+	color: #73d1c8 !important;
+}
+
+.hljs-number {
+	color: #FFE082 !important;
+}
+
+.hljs-variable,
+.hljs-subst,
+.hljs-bullet,
+.hljs-template-variable,
+.hljs-symbol,
+.hljs-type {
+	color: #F07178 !important;
+}
+
+.hljs-string,
+.hljs-link {
+	color: #C3E88D !important;
+}
+
+.hljs-built_in,
+.hljs-title,
+.hljs-section,
+.hljs-name {
+	color: #82AAFF !important;
+}
+
+#clockPluginClock {
+	position:absolute;
+	bottom:0px;
+	padding:5px 10px 11px 11px;
+	text-align: center;
+	font-family: var(--customFont);
+	color: var(--PrimaryColor01);
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: bold;
+	background-color: var(--PrimaryColorRGBA02);
+	height: 10px;
+	max-width: 56px;
+	width: 56px;
+	left: 1px;
+	border: 1px solid red;
+	border-radius: 5px;
+}

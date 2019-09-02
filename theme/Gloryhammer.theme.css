@@ -2,11 +2,11 @@
 @import url("https://codedotspectra.github.io/themes/neutron/importCSS/xcore.css");
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url("https://torpill40.github.io/gloryhammer-discord-theme/import/theme/gloryhammer.css");
+@import url("https://torpill40.github.io/gloryhammer-discord-theme/theme/import/gloryhammer.css");
 :root {
-	--bgImage: url('https://torpill40.github.io/gloryhammer-discord-theme/import/theme/images/background.jpg');
-	--HomeButtonImg: url('https://torpill40.github.io/gloryhammer-discord-theme/import/theme/images/home.jpg');
-	--wordMarkImage: url('https://torpill40.github.io/gloryhammer-discord-theme/import/theme/images/wordmark.png');
+	--bgImage: url('https://torpill40.github.io/gloryhammer-discord-theme/theme/import/images/background.jpg');
+	--HomeButtonImg: url('https://torpill40.github.io/gloryhammer-discord-theme/theme/import/images/home.jpg');
+	--wordMarkImage: url('https://torpill40.github.io/gloryhammer-discord-theme/theme/import/images/wordmark.png');
 	--brightness: 0.80;
 	--customFont: 'Roboto';
 	--PrimaryColorRGBA01: rgba(255, 0, 0, 0.15);

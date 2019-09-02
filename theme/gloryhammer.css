@@ -3,9 +3,9 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 :root {
-	--bgImage: url('https://github.com/torpill40/gloryhammer-discord-theme/blob/master/theme/images/background.jpg');
-	--HomeButtonImg: url('https://github.com/torpill40/gloryhammer-discord-theme/blob/master/theme/images/home.jpg');
-	--wordMarkImage: url('https://github.com/torpill40/gloryhammer-discord-theme/blob/master/theme/images/wordmark.png');
+	--bgImage: url('https://torpill40.github.io/gloryhammer-discord-theme/theme/images/background.jpg');
+	--HomeButtonImg: url('https://torpill40.github.io/gloryhammer-discord-theme/theme/images/home.jpg');
+	--wordMarkImage: url('https://torpill40.github.io/gloryhammer-discord-theme/theme/images/wordmark.png');
 	--brightness: 0.80;
 	--customFont: 'Roboto';
 	--PrimaryColorRGBA01: rgba(255, 0, 0, 0.15);

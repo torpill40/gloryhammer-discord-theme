@@ -1,0 +1,37 @@
+//META{"name":"Gloryhammer","description":"Gloryhammer's Theme - Based on the Neutron X Theme","author":"torpill40","version":"1.0"}*//
+@import url("https://codedotspectra.github.io/themes/neutron/importCSS/xcore.css");
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url("https://torpill40.github.io/gloryhammer-discord-theme/import/theme/gloryhammer.css");
+:root {
+	--bgImage: url('https://torpill40.github.io/gloryhammer-discord-theme/import/theme/images/background.jpg');
+	--HomeButtonImg: url('https://torpill40.github.io/gloryhammer-discord-theme/import/theme/images/home.jpg');
+	--wordMarkImage: url('https://torpill40.github.io/gloryhammer-discord-theme/import/theme/images/wordmark.png');
+	--brightness: 0.80;
+	--customFont: 'Roboto';
+	--PrimaryColorRGBA01: rgba(255, 0, 0, 0.15);
+	--PrimaryColorRGBA02: rgba(0, 240, 240, 0.15);
+	--PrimaryColor01: #ff0000;
+	--PrimaryColorRGBA: var(--PrimaryColorRGBA01);
+	--PrimaryColor02: #b70000;
+	--links: #00adf7;
+	--ChatTextColor: #ffffff;
+	--RoleTitleColor: #ff0000;
+	--UserPlayingTextColor: #ffffff;
+	--ChannelsDefaultTextColor: #00f0f0;
+	--ChannelsSelectedTextColor: #00f0f0;
+	--ChannelsDarkTextColor: #808080;
+	--NTBackgroundColor01: #800000;
+	--NTBackgroundColor02: #600000;
+	--NTBackgroundColor03: #400000;
+	--NTBackgroundColor04: #200000;
+	--columns: 1;
+	--guildsize: 60;
+	--online: #00f0f0;
+	--online-mobile: #00f0f0;
+	--idle: #c70000;
+	--dnd: #800000;
+	--offline: #2d2e30;
+	--invisible: #2d2e30;
+	--streaming: #00adf7;
+}
